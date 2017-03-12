@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Invoice | Index</title>
+  <title>Invoice | View</title>
   <link rel="stylesheet" href="static/material.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!--[if lt IE 9]>
@@ -18,7 +18,7 @@
     <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">BLYTHE</a>
+            BLYTHE
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -33,7 +33,7 @@
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="request.html">Request</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Request</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Expense</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Approve</a>
             </nav>
@@ -51,10 +51,84 @@
       </div>
   </header>
 
-  <!--
-  <footer class="mdl-mini-footer">
-  <div class="mdl-mini-footer__left-section">
-  BLYTHE XI
+  <main class="container">
+    <!-- Bannder -->
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <h4>BLYTHE XI</h4>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <!-- Free space -->
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <b>Naruedol Yoojun</b>
+        <p>39 Saint Mary Rd.
+        </br>Nakhon Ratchasima, 3000</p>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Infomation of Invoice -->
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <b>Invoice #</b> 123456
+        <p>Create Date: 18 Feb 2017</p>
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <!-- Free space -->
+      </div>
+      <div class="mdl-cell mdl-cell--4-col">
+        <b>Naruedol Yoojun</b>
+        <p>39 Saint Mary Rd.
+        </br>Nakhon Ratchasima, 3000
+      </br>Naruedol@Mail.com</p>
+    </div>
+  </div>
+
+  <!-- Items -->
+  <table class="mdl-data-table mdl-js-data-table table-full">
+    <thead>
+      <tr>
+        <th class="mdl-data-table__cell--non-numeric">SERVICE</th>
+        <th>UNIT PRICE</th>
+        <th>QUANTITY</th>
+        <th>TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Don Aubrey</td>
+        <td>25</td>
+        <td>49021</td>
+        <td>49021</td>
+      </tr>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Sophia Carson</td>
+        <td>32</td>
+        <td>10258</td>
+        <td>10258</td>
+      </tr>
+      <tr>
+        <td class="mdl-data-table__cell--non-numeric">Steve Moreno</td>
+        <td>29</td>
+        <td>12359</td>
+        <td>12359</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col"></div>
+    <div class="mdl-cell mdl-cell--4-col"></div>
+    <div class="mdl-cell mdl-cell--2-col">
+      <b>Total: </b> 10
+    </div>
+  </div>
+</main>
+
+<!--
+<footer class="mdl-mini-footer">
+<div class="mdl-mini-footer__left-section">
+BLYTHE XI
 </div>
 <div class="mdl-mini-footer__right-section">
 Make with ♥ by BLYTHE
